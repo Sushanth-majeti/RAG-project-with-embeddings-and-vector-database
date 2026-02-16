@@ -1,0 +1,92 @@
+[
+  {
+    "query_id": "q1",
+    "query": "What are the main financial results?",
+    "expected_keywords": ["revenue", "profit", "earnings", "financial"],
+    "expected_source_patterns": ["financial", "results", "annual"]
+  },
+  {
+    "query_id": "q2",
+    "query": "How much revenue did we generate this period?",
+    "expected_keywords": ["revenue", "sales", "income"],
+    "expected_source_patterns": ["financial", "results"]
+  },
+  {
+    "query_id": "q3",
+    "query": "What was the profit margin?",
+    "expected_keywords": ["profit", "margin", "earnings"],
+    "expected_source_patterns": ["financial", "results"]
+  },
+  {
+    "query_id": "q4",
+    "query": "Quarter performance analysis",
+    "expected_keywords": ["quarterly", "report", "performance", "q1", "q2", "q3", "q4"],
+    "expected_source_patterns": ["quarterly"]
+  },
+  {
+    "query_id": "q5",
+    "query": "Half year statement and key metrics",
+    "expected_keywords": ["half", "year", "h1", "h2", "interim"],
+    "expected_source_patterns": ["half", "interim"]
+  },
+  {
+    "query_id": "q6",
+    "query": "Financial statements and balance sheet",
+    "expected_keywords": ["balance", "sheet", "assets", "liabilities"],
+    "expected_source_patterns": ["financial", "statements"]
+  },
+  {
+    "query_id": "q7",
+    "query": "Annual results summary",
+    "expected_keywords": ["annual", "year", "total", "summary"],
+    "expected_source_patterns": ["annual"]
+  },
+  {
+    "query_id": "q8",
+    "query": "Quarterly earnings report",
+    "expected_keywords": ["quarterly", "earnings", "report", "quarter"],
+    "expected_source_patterns": ["quarterly"]
+  },
+  {
+    "query_id": "q9",
+    "query": "Cash flow and liquidity statement",
+    "expected_keywords": ["cash", "flow", "liquidity", "statement"],
+    "expected_source_patterns": ["financial", "statements"]
+  },
+  {
+    "query_id": "q10",
+    "query": "Year-over-year performance growth",
+    "expected_keywords": ["growth", "performance", "year", "annual"],
+    "expected_source_patterns": ["annual", "results"]
+  },
+  {
+    "query_id": "q11",
+    "query": "Operating expense analysis",
+    "expected_keywords": ["operating", "expense", "cost", "analysis"],
+    "expected_source_patterns": ["financial", "statements"]
+  },
+  {
+    "query_id": "q12",
+    "query": "Quarterly financial metrics and KPIs",
+    "expected_keywords": ["quarterly", "metrics", "kpi", "indicators"],
+    "expected_source_patterns": ["quarterly", "results"]
+  },
+  {
+    "query_id": "q13",
+    "query": "Interim report highlights",
+    "expected_keywords": ["interim", "highlights", "report", "half"],
+    "expected_source_patterns": ["half"]
+  },
+  {
+    "query_id": "q14",
+    "query": "Annual financial overview and trends",
+    "expected_keywords": ["annual", "overview", "trends", "financial"],
+    "expected_source_patterns": ["annual", "results"]
+  },
+  {
+    "query_id": "q15",
+    "query": "Comparative quarterly analysis",
+    "expected_keywords": ["quarterly", "comparative", "analysis", "compare"],
+    "expected_source_patterns": ["quarterly"]
+  }
+]
